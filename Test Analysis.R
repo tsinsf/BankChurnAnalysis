@@ -7,8 +7,6 @@ install.packages("dplyr")
 install.packages("caTools")
 install.packages("caret")
 
-setwd("/Users/ts/Desktop/M. Sc. Business Analytics/02_Modules/08_Visualizing & Analyzing Data with R/02_Assignments/A3 - Binary Classification with Bank Churn Dataset")
-
 bankchurn <- read.csv("BankChurnDataset.csv")
 summary(bankchurn)
 head(bankchurn, 10)
